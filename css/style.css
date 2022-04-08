@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(50, 130, 205);
+}
+#box{
+    position: relative;
+    width: 100%;
+    height: 630px;
+    background-image: linear-gradient(to right, skyblue 50%, rgb(105, 153, 172) 100%);
+
+}
+#heading{
+    position: absolute;
+    left: 170px;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px rgb(150, 148, 148);
+    
+}
+#footer{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(197, 206, 66);
+}
+.pyt{
+    position: absolute;
+   top: 275px;
+   left: 200px;
+   opacity: 0.5;
+}
+.htm{
+    position: absolute;
+    top: 275px;
+    left: 380px;
+    opacity: 0.5;
+}
+.pyt:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    filter: drop-shadow(0px 20px 25px rgb(77, 75, 75));
+}
+.htm:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    filter: drop-shadow(0px 20px 25px rgb(77, 75, 75));
+}
+
+.regis{
+    background-color: rgb(50, 130, 205);
+    width: 55%;
+    height: 70%;
+    position: absolute;
+    top: 130px;
+    right: 11px;
+}
+.field{
+    padding: 15px;
+    margin-left: 50px;
+
+}
+fieldset{
+    padding-bottom: 30px;
+    margin: 10px 28px 15px 18px;
+    border: 2px solid white;
+}
+label {
+    text-align: right;
+    display: inline-block;
+    color: white;
+    width: 160px;
+}
+.short{
+    
+    width: 80px;
+    text-align: left;
+}
+legend{
+    color: white;
+    margin-left: 15px;
+    padding: 4px;
+}
+
+input,select {
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 3px;
+} 
